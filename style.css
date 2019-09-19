@@ -1,10 +1,28 @@
 #menu {
-    background-color: darkblue;
+    background-color: #2A4B7C;
 }
+#menu_text{
+    color: #FAE03C;
+}
+
 footer {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     padding: 5px;
-    background-color: #45a1ff;
+    background-color: #2A4B7C;
     color: #fff;
+}
+
+#index_header{
+    text-align: center;
+    color: #333300;
+    font-size: 64px;
+    font-family: "Aclonica";
+    font-weight: bold;
+}
+
+#index_{
+    font-family: "Aclonica";
+    background-color: #2A4B7C;
+    
 }
