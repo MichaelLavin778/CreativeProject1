@@ -19,10 +19,45 @@ footer {
     font-size: 64px;
     font-family: "Aclonica";
     font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 18px;
+    background-color: #cce6ff
+}
+
+#index_body{
+    background-image: url("http://4.bp.blogspot.com/_0bwJTuGJVb4/SwFhqkiuAgI/AAAAAAAAALg/acwH1uO1gWk/s1600/Magic+carpet.JPG");
+    background-repeat: no-repeat;
+    background-color: skyblue;
+}
+
+#other_header{
+    text-align: center;
+    color: #333300;
+    font-size: 48px;
+    font-family: "Aclonica";
+    font-weight: bold;
 }
 
 #index_{
     font-family: "Aclonica";
     background-color: #2A4B7C;
     
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#rdiv {
+    padding-left: 50px; 
 }
