@@ -3,32 +3,51 @@
 }
 #menu_text{
     color: #FAE03C;
+    font-size: 26px;
 }
 
-footer {
-    display: flex;
+.footer {
     justify-content: center;
+    display: flex;
     padding: 5px;
     background-color: #2A4B7C;
     color: #fff;
+    position: sticky;
+    top: 100%;
 }
 
 #index_header{
-    text-align: center;
-    color: #264e36;
-    font-size: 64px;
+    background: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+#header1{
+    text-align: left;
+    color: #274f4f;
+    font-size: 90px;
     font-family: "Aclonica";
     font-weight: bold;
     letter-spacing: 3px;
     word-spacing: 18px;
-    background-color: #eae6da;
-    margin-bottom: 50px;
+}
+#index_header2{
+    text-align: left;
+    color: #274f4f;
+    font-size: 56px;
+    font-family: "Aclonica";
+    letter-spacing: 3px;
+    word-spacing: 18px;
 }
 
 #index_body{
     background-image: url("http://4.bp.blogspot.com/_0bwJTuGJVb4/SwFhqkiuAgI/AAAAAAAAALg/acwH1uO1gWk/s1600/Magic+carpet.JPG");
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: skyblue;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
 }
 
 #other_header{
@@ -64,4 +83,8 @@ footer {
 
 #rdiv {
     padding-left: 50px; 
+}
+
+#reviews_body{
+    background-color: #cce6ff;
 }
