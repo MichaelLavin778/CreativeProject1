@@ -1,8 +1,13 @@
 #menu {
     background-color: #2A4B7C;
 }
+
 #menu_text{
     color: #FAE03C;
+    font-size: 26px;
+}
+#menu_text_active {
+    color: #dac01c;
     font-size: 26px;
 }
 
