@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html style="height:100%">
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script type="text/javascript" src="scripts.js"></script>
         
         <title>News</title>
     </head>
     
-    <body>
+    <body id="signup_body">
         <nav id="menu" class="navbar navbar-expand-lg navbar-dark">
           <a href="index.html">
             <img class="navbar-brand" src="http://www.newdesignfile.com/postpic/2012/09/carpet-store-logo_379423.png" width="120" height="120">
@@ -33,25 +35,31 @@
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a id="menu_text" href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a id="menu_text_active" href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             </ul>
           </div>
         </nav>
         
-        <h1>Sign Up Now!! Limited Time Only!</h1>
-        <p>Sign up now to suscribe for hourly emails on Magic Carpet News</p>
-        <form name="input">
-            Email: <input type="text" name="email"/>
-            <input type="submit" value="Submit">
-        </form>
-        <hr>
-        <h1>New Carpet Software!</h1>
-        <p>Also Download our unique Magic Carpet software and stay current on software updates!!</p>
-        <p>Current version is v2.06</p>
-        <form name="downloader">
-            <input type="button" value="Download HERE">
-        </form>
-        
+        <div class="container text-center">
+          <h1 id="signup_heading">Sign Up Now!! Limited Time Only!</h1>
+          <br>
+          <p>Sign up now to suscribe for hourly emails on Magic Carpet News</p>
+          <form name="input">
+              Email: <input type="text" name="email"/>
+              <input type="submit" value="Submit">
+          </form>
+          <br>
+          <hr>
+          <h1 id="signup_heading">New Carpet Software!</h1>
+          <br>
+          <p>Also Download our unique Magic Carpet software and stay current on software updates!!</p>
+          <p>Current version is v2.06</p>
+          <form name="downloader">
+              <input type="button" value="Download HERE" onclick="printResponse()">
+          </form>
+          <p id="response"></p>
+        </div>
+          
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

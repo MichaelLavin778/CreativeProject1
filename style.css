@@ -5,19 +5,27 @@
 #menu_text{
     color: #FAE03C;
     font-size: 26px;
+    transition:0.3s;
 }
 #menu_text_active {
     color: #dac01c;
     font-size: 26px;
 }
+#menu_text:hover {
+    background-color:#3a5b8c;
+}
+#menu_text_active:hover {
+    background-color:#3a5b8c;
+}
 
 .footer {
     justify-content: center;
     display: flex;
+    margin-top:5em;
     padding: 5px;
     background-color: #2A4B7C;
     color: #fff;
-    position: sticky;
+    position: relative;
     top: 100%;
 }
 
@@ -71,6 +79,10 @@
     background-color: #2A4B7C;
 }
 
+#product {
+    margin-top:1.5em;
+}
+
 .flex-container {
     display: flex;
     background-color: #cce6ff;
@@ -87,9 +99,26 @@
 }
 
 #rdiv {
-    padding-left: 50px; 
+    padding-left: 50px;
 }
 
-#reviews_body{
+#reviews_body {
     background-color: #cce6ff;
+    height: 100%;
+}
+#signup_body {
+    background-color: #cce6ff;
+    height: 100%;
+}
+#signup_heading {
+    margin-top: 1em;
+}
+#response {
+    white-space:pre-wrap;
+}
+#about_us {
+    font-size:22px;
+    font-weight:600;
+    font-style:italic;
+    max-width:55em;
 }

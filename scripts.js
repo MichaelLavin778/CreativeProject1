@@ -11,3 +11,7 @@ document.getElementById("run1").addEventListener("click", function(event) {
   clear();
   
 });
+
+function printResponse() {
+  document.getElementById("response").innerHTML = "\nDon't worry. This button currently downloads nothing.";
+}
